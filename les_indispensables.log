@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.22)  26 MAR 2025 22:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.22)  7 APR 2025 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -575,142 +575,172 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `les_indispensables.toc'.
 
- [2] [3] [4] [5] [6] [7] [8] [9]
+ [2] [3] [4] [5] [6] [7] [8] [9] [10]
+<./images/trigonometrie.png, id=247, 679.03688pt x 490.83376pt>
+File: ./images/trigonometrie.png Graphic file (type png)
+<use ./images/trigonometrie.png>
+Package pdftex.def Info: ./images/trigonometrie.png  used on input line 272.
+(pdftex.def)             Requested size: 452.9679pt x 327.41891pt.
+<./images/cercle-trigonometrique.jpg, id=249, 538.01pt x 503.8825pt>
+File: ./images/cercle-trigonometrique.jpg Graphic file (type jpg)
+<use ./images/cercle-trigonometrique.jpg>
+Package pdftex.def Info: ./images/cercle-trigonometrique.jpg  used on input lin
+e 279.
+(pdftex.def)             Requested size: 226.48395pt x 212.11359pt.
 
-LaTeX Warning: Command \textquoteright invalid in math mode on input line 197.
 
-<./images/tangente.png, id=122, 1032.85875pt x 773.89125pt>
-File: ./images/tangente.png Graphic file (type png)
-<use ./images/tangente.png>
-Package pdftex.def Info: ./images/tangente.png  used on input line 201.
-(pdftex.def)             Requested size: 226.48395pt x 169.68979pt.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
-
- []
-
-<./images/coef_directeur.png, id=124, 1111.90407pt x 769.37437pt>
-File: ./images/coef_directeur.png Graphic file (type png)
-<use ./images/coef_directeur.png>
-Package pdftex.def Info: ./images/coef_directeur.png  used on input line 211.
-(pdftex.def)             Requested size: 226.48395pt x 156.71315pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--222
-
- []
-
-<./images/variations.png, id=125, 1394.96156pt x 800.23969pt>
-File: ./images/variations.png Graphic file (type png)
-<use ./images/variations.png>
-Package pdftex.def Info: ./images/variations.png  used on input line 226.
-(pdftex.def)             Requested size: 226.48395pt x 129.9214pt.
-[10
+[11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.230 
-      
+l.288 	\item \(
+                \boxed{\tan x \cdot \cot x = 1} \) <./images/trigonometrie.png>
+] [12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.230 
-       <./images/tangente.png> <./images/coef_directeur.png>] [11
+l.302 \end{itemize}
+                    <./images/cercle-trigonometrique.jpg>] [13] [14]
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 358.
+
+<./images/tangente.png, id=271, 1032.85875pt x 773.89125pt>
+File: ./images/tangente.png Graphic file (type png)
+<use ./images/tangente.png>
+Package pdftex.def Info: ./images/tangente.png  used on input line 362.
+(pdftex.def)             Requested size: 226.48395pt x 169.68979pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+<./images/coef_directeur.png, id=272, 1111.90407pt x 769.37437pt>
+File: ./images/coef_directeur.png Graphic file (type png)
+<use ./images/coef_directeur.png>
+Package pdftex.def Info: ./images/coef_directeur.png  used on input line 372.
+(pdftex.def)             Requested size: 226.48395pt x 156.71315pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--383
+
+ []
+
+<./images/variations.png, id=273, 1394.96156pt x 800.23969pt>
+File: ./images/variations.png Graphic file (type png)
+<use ./images/variations.png>
+Package pdftex.def Info: ./images/variations.png  used on input line 387.
+(pdftex.def)             Requested size: 226.48395pt x 129.9214pt.
+[15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.233 \newpage
+l.391 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.391 
+       <./images/tangente.png> <./images/coef_directeur.png>] [16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.394 \newpage
                <./images/variations.png>]
-Overfull \hbox (2.99673pt too wide) in alignment at lines 236--242
+Overfull \hbox (2.99673pt too wide) in alignment at lines 397--403
  [] [] [] 
  []
 
 
-Overfull \hbox (2.99673pt too wide) in alignment at lines 242--247
+Overfull \hbox (2.99673pt too wide) in alignment at lines 403--408
  [] [] [] 
  []
 
 
-Overfull \hbox (2.99673pt too wide) in alignment at lines 247--250
+Overfull \hbox (2.99673pt too wide) in alignment at lines 408--411
  [] [] [] 
  []
 
 
-Overfull \hbox (2.99673pt too wide) in alignment at lines 250--253
+Overfull \hbox (2.99673pt too wide) in alignment at lines 411--414
  [] [] [] 
  []
 
 
-Overfull \hbox (2.99673pt too wide) in alignment at lines 253--286
+Overfull \hbox (2.99673pt too wide) in alignment at lines 414--447
  [] [] [] 
  []
 
-[12] [13]
-Overfull \hbox (44.65152pt too wide) in alignment at lines 292--298
- [] [] [] 
- []
-
-
-Overfull \hbox (44.65152pt too wide) in alignment at lines 298--303
+[17] [18]
+Overfull \hbox (44.65152pt too wide) in alignment at lines 453--459
  [] [] [] 
  []
 
 
-Overfull \hbox (44.65152pt too wide) in alignment at lines 303--306
+Overfull \hbox (44.65152pt too wide) in alignment at lines 459--464
  [] [] [] 
  []
 
 
-Overfull \hbox (44.65152pt too wide) in alignment at lines 306--309
+Overfull \hbox (44.65152pt too wide) in alignment at lines 464--467
  [] [] [] 
  []
 
 
-Overfull \hbox (44.65152pt too wide) in alignment at lines 309--337
+Overfull \hbox (44.65152pt too wide) in alignment at lines 467--470
  [] [] [] 
  []
 
-[14] [15] (les_indispensables.aux)
+
+Overfull \hbox (44.65152pt too wide) in alignment at lines 470--498
+ [] [] [] 
+ []
+
+[19] [20] [21] [22] [23] [24] [25] (les_indispensables.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `les_indispensables.out' has not changed.
-(rerunfilecheck)             Checksum: 971ECE95CF9B37AEEC6DB33D6C32BC6D;1981.
+(rerunfilecheck)             Checksum: D915947C780D2969874B59D78291E87B;5623.
  ) 
 Here is how much of TeX's memory you used:
- 14010 strings out of 474486
- 223314 string characters out of 5743755
+ 14102 strings out of 474486
+ 224987 string characters out of 5743755
  1948542 words of memory out of 5000000
- 36070 multiletter control sequences out of 15000+600000
- 571628 words of font info for 68 fonts, out of 8000000 for 9000
+ 36113 multiletter control sequences out of 15000+600000
+ 572404 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,557b,686s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,557b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
 1200.pk> <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\eccc1000.pk> <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1200.pk> <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1440.pk> <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\loris\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/loris/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/loris/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/loris/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users
-/loris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-C:/Users/loris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><C:/Users/loris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr6.pfb><C:/Users/loris/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><C:/Users/loris/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/loris/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/loris/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/loris/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on les_indispensables.pdf (15 pages, 809036 bytes).
+/dpi600\ecbx1000.pk> <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1200.pk> <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\loris\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\loris\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/loris/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/loris/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/l
+oris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:
+/Users/loris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb><C:/Users/loris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><C:/Users/loris/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr6.pfb><C:/Users/loris/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><C:/Users/loris/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/loris/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/loris/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/loris/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on les_indispensables.pdf (25 pages, 1009639 bytes).
 PDF statistics:
- 444 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 713 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 314 words of extra memory for PDF output out of 10000 (max. 10000000)
 

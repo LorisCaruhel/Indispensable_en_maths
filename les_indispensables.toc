@@ -1,14 +1,37 @@
 \babel@toc {french}{}\relax 
-\contentsline {section}{\numberline {1}Les fractions}{3}{section.1}%
-\contentsline {section}{\numberline {2}Les puissances}{4}{section.2}%
-\contentsline {section}{\numberline {3}Les identités remarquables}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Puissance 2 :}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Puissance 3 :}{5}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Les racines}{6}{section.4}%
-\contentsline {section}{\numberline {5}Exponentielles et logarithme}{7}{section.5}%
-\contentsline {section}{\numberline {6}Trigonométrie}{8}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Fonctions trigonométriques}{8}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Les dérivés}{10}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Rappel du principe des dérivés}{10}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Dérivés des fonctions usuelles}{12}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Les primitives usuelles}{14}{section.8}%
+\contentsline {section}{\numberline {1}Vocabulaires}{3}{section.1}%
+\contentsline {section}{\numberline {2}Les fractions}{5}{section.2}%
+\contentsline {section}{\numberline {3}Les puissances}{6}{section.3}%
+\contentsline {section}{\numberline {4}Les identités remarquables}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Puissance 2}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Puissance 3}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Les racines}{8}{section.5}%
+\contentsline {section}{\numberline {6}Exponentielles et logarithme}{9}{section.6}%
+\contentsline {section}{\numberline {7}Trigonométrie}{10}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Fonctions}{10}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Originales}{10}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Réciproques}{10}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Hyperboliques}{10}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Hyperboliques réciproques}{10}{subsubsection.7.1.4}%
+\contentsline {subsubsection}{\numberline {7.1.5}Complémentaires (secondaires)}{10}{subsubsection.7.1.5}%
+\contentsline {subsubsection}{\numberline {7.1.6}Complémentaires hyperboliques}{11}{subsubsection.7.1.6}%
+\contentsline {subsection}{\numberline {7.2}Propriétés}{11}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Fondamentales}{12}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}Identités trigonométriques fondamentales}{12}{subsubsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.2}Formules de somme et différence}{12}{subsubsection.7.3.2}%
+\contentsline {subsubsection}{\numberline {7.3.3}Angles associés}{13}{subsubsection.7.3.3}%
+\contentsline {subsubsection}{\numberline {7.3.4}Arguments doubles}{13}{subsubsection.7.3.4}%
+\contentsline {subsubsection}{\numberline {7.3.5}Arguments triples}{13}{subsubsection.7.3.5}%
+\contentsline {subsubsection}{\numberline {7.3.6}Formules de Carnot}{14}{subsubsection.7.3.6}%
+\contentsline {subsubsection}{\numberline {7.3.7}Formules de Simpson}{14}{subsubsection.7.3.7}%
+\contentsline {subsubsection}{\numberline {7.3.8}Développements tangentiels}{14}{subsubsection.7.3.8}%
+\contentsline {section}{\numberline {8}Les dérivés}{15}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Rappel du principe des dérivés}{15}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Dérivés des fonctions usuelles}{17}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Les primitives usuelles}{19}{section.9}%
+\contentsline {section}{\numberline {10}Intégrales}{21}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Propriétés de l'intégrale}{21}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Intégration par parties}{21}{subsection.10.2}%
+\contentsline {section}{\numberline {11}Le changement de variable}{23}{section.11}%
+\contentsline {section}{\numberline {12}Limites usuelles}{24}{section.12}%
+\contentsline {section}{\numberline {13}Polynômes}{25}{section.13}%
