@@ -7,7 +7,7 @@
 \date{22/03/2025}
 
 % Packages utiles pour les maths
-\usepackage{mathtools, amsmath, amssymb, amsthm}  % Symboles et environnements mathématiques
+\usepackage{mathtools, amsmath, amssymb, amsthm, amsfonts}  % Symboles et environnements mathématiques
 \usepackage[french]{babel} % Langue
 \usepackage[utf8]{inputenc} % Encodage
 \usepackage[T1]{fontenc} % Encodage
@@ -21,6 +21,11 @@
 \usepackage{amsmath} % Pour les symboles mathématiques avancés
 \usepackage{amsfonts} % Pour les polices de mathématiques
 \usepackage{amssymb}  % Pour les symboles supplémentaires
+\usepackage{multicol}
+
+\usepackage{amsmath, amssymb}
+\usepackage{array, multirow}
+\usepackage{geometry}
 
 % Les macros
 \newcommand{\R}{\mathbb R}
@@ -203,10 +208,10 @@ Une fonction est \textbf{différentiable} si elle admet une dérivée, c’est-�
 \large
 \begin{itemize}
 	\item \textbf{Produit :} \( \boxed{ln(ab) = ln(a) + ln(b)} \)
-	\item \textbf{Division :} \( \boxed{ln(\frac{a}{b}) = ln(a) - ln(b)} \)
+	\item \textbf{Division :} \( \boxed{ln\left (\frac{a}{b}\right ) = ln(a) - ln(b)} \)
 	\item \textbf{Propriété 1 :} \( \boxed{ln(a^{n}) = nln(a)} \)
-	\item \textbf{Propriété 2 :} \( \boxed{ln(\sqrt{a}) = \frac{1}{2}ln(a)} \)
-	\item \textbf{Propriété 3 :} \( \boxed{ln(\frac{1}{b}) = -ln(b)} \)
+	\item \textbf{Propriété 2 :} \( \boxed{ln\left (\sqrt{a}\right ) = \frac{1}{2}ln(a)} \)
+	\item \textbf{Propriété 3 :} \( \boxed{ln\left (\frac{1}{b}\right ) = -ln(b)} \)
 	\item \textbf{Propriété 4 :} \( \boxed{ln(e^{x}) = x} \)
 	\item \textbf{Propriété 5 :} \( \boxed{e^{ln(x)} = x} \)
 	\item \textbf{Limites :}
@@ -569,6 +574,15 @@ Alors, d'après la formule d'intégration par parties :
 \int x\,e^x\,dx = x\,e^x - e^x + C
 \]
 
+
+\begin{figure}[h] % h = ici, t = en haut, b = en bas, p = page séparée
+	\centering
+	\includegraphics[width=1\textwidth]{./images/integrale.png} % Ajustez la largeur
+	\caption{Calculs d'intégrales sur une courbes}
+	\label{fig:integrale} % Pour référencer l’image
+\end{figure}
+
+
 \newpage
 \section{Le changement de variable}
 
@@ -632,9 +646,120 @@ Le changement de variable doit être :
 
 \newpage
 \section{Limites usuelles}
+	
+\begin{itemize}
+	\item \( \displaystyle \lim_{x \to +\infty} x^2 = +\infty \quad \lim_{x \to -\infty} x^2 = +\infty \)
+	\item \( \displaystyle \lim_{x \to +\infty} x^3 = +\infty \quad \lim_{x \to -\infty} x^3 = -\infty \)
+	\item \( \displaystyle \lim_{x \to +\infty} \sqrt{x} = +\infty \)
+\end{itemize}
+
+
+\subsection{Logarithmes et exponentielles}
+
+\begin{itemize}
+	\item \( \displaystyle \lim_{x \to 0^+} \ln x = -\infty \quad \lim_{x \to +\infty} \ln x = +\infty \)
+	\item \( \displaystyle \lim_{x \to -\infty} e^x = 0 \quad \lim_{x \to +\infty} e^x = +\infty\)
+\end{itemize}
+
+\subsection{Puissances et racines}
+
+\begin{itemize}
+	\item \( \displaystyle \lim_{x \to 0^+} \frac{1}{x} = +\infty \quad \lim_{x \to 0^-} \frac{1}{x} = -\infty \)
+	\item \( \displaystyle \lim_{x \to \infty} \frac{1}{x^n} = 0 \quad \text{(pour } n > 0 \text{)} \)
+	\item \( \displaystyle \lim_{x \to \infty} \sqrt[x]{x} = 1 \)
+\end{itemize}
+
+\subsection{Comparaisons importantes}
+
+\begin{itemize}
+	\item \( x \ll \ln x \ll x^a \ll a^x \ll x! \ll x^x \quad \text{avec } x \to +\infty \text{ et } a > 1 \)
+\end{itemize}
+
+\subsection{Limites du type : \textbf{Faire la règle des signes}}
+
+\[
+\boxed{
+	\begin{array}{ccc}
+		\displaystyle \frac{k \ne 0}{\pm\infty} = 0^\pm &
+		\quad \displaystyle \frac{k \ne 0}{0^\pm} = \pm\infty &
+		\quad \displaystyle \pm \infty \times \pm \infty = \pm \infty
+	\end{array}
+}
+\]
+
+\subsection{Forme indéterminée (FI)}
+
+\[
+\boxed{
+	\begin{array}{@{\hskip 3pt} c @{\hskip 6pt} c @{\hskip 6pt} c @{\hskip 6pt} c @{\hskip 6pt} c @{\hskip 6pt} c @{\hskip 6pt} c @{\hskip 3pt}}
+		\displaystyle \frac{\infty}{\infty}  \qquad \qquad &
+		\displaystyle \frac{0}{0}  \qquad \qquad &
+		\displaystyle 0 \times \infty \qquad \qquad &
+		\displaystyle \infty - \infty \qquad \qquad &
+		\displaystyle (+\infty) + (-\infty) \qquad \qquad &
+		\displaystyle 1^\infty \qquad \qquad &
+		\displaystyle \infty^0 \qquad 0^0
+	\end{array}
+}
+\]
+
+
+\textit{En présence d’une FI, on peut développer, factoriser, utiliser les "croissances comparées".}
+
+\subsection{Croissances comparées}
+
+\begin{itemize}
+	\item \( \displaystyle \lim_{x \to 0^+} x^n \ln x = 0 \)
+	\item \( \displaystyle \lim_{x \to +\infty} \frac{\ln x}{x^n} = 0 \)
+	\item \( \displaystyle \lim_{x \to -\infty} x^n e^x = 0 \)
+	\item \( \displaystyle \lim_{x \to +\infty} \frac{e^x}{x^n} = +\infty \)
+\end{itemize}
+
+\subsection{Opérations sur les limites}
+\subsubsection{Somme}
+\begin{tabular}{|l|c|c|c|c|c|c|}
+	\hline
+	$\displaystyle \lim_{x \to \alpha} f(x) = $ & $L$ & $L$ & $L$ & $+\infty$ & $-\infty$ & $+\infty$ \\
+	\hline
+	$\displaystyle \lim_{x \to \alpha} g(x) = $ & $L'$ & $+\infty$ & $-\infty$ & $+\infty$ & $-\infty$ & $-\infty$ \\
+	\hline
+	$\displaystyle \lim_{x \to \alpha} f(x)+g(x) = $ & $L+L'$ & $+\infty$ & $-\infty$ & $+\infty$ & $-\infty$ & $F.I.$ \\
+	\hline
+\end{tabular}
+
+\subsubsection{Produit}
+\begin{tabular}{|l|c|c|c|c|}
+	\hline
+	$\displaystyle \lim_{x \to \alpha} f(x) = $ & $L$ & $L$ & $\infty$ & $0$ \\
+	\hline
+	$\displaystyle \lim_{x \to \alpha} g(x) = $ & $L'$ & $\infty$ & $\infty$ & $\infty$ \\
+	\hline
+	$\displaystyle \lim_{x \to \alpha} f(x) \times g(x) = $ & $L \times L'$ & $\infty$ & $\infty$ & $F.I.$ \\
+	\hline
+\end{tabular}
+
+$\infty$ désigne $+\infty$ ou $-\infty$.
+
+\subsubsection{Quotient}
+\begin{tabular}{|l|c|c|c|c|c|c|}
+	\hline
+	$\displaystyle \lim_{x \to \alpha} f(x) = $ & $L$ & $L \ne 0$ & $L$ & $\infty$ & $\infty$ & $0$ \\
+	\hline
+	$\displaystyle \lim_{x \to \alpha} g(x) = $ & $L' \ne 0$ & $0$ & $\infty$ & $L$ & $\infty$ & $0$ \\
+	\hline
+	$\displaystyle \lim_{x \to \alpha} \frac{f(x)}{g(x)} = $ & $\frac{L}{L'}$ & $\infty$ & $0$ & $\infty$ & $F.I.$ & $F.I.$ \\
+	\hline
+\end{tabular}
 
 
 \newpage
 \section{Polynômes}
+\subsection{Polynômes du 1er et 2ème degré}
+\begin{figure}[h] % h = ici, t = en haut, b = en bas, p = page séparée
+	\centering\texttt{}
+	\includegraphics[width=1\textwidth]{./images/polynomes.png} % Ajustez la largeur
+	\label{fig:polynome} % Pour référencer l’image
+\end{figure}
+
 
 \end{document}
