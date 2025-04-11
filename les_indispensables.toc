@@ -8,14 +8,14 @@
 \contentsline {section}{\numberline {5}Les racines}{9}{section.5}%
 \contentsline {section}{\numberline {6}Exponentielles et logarithme}{10}{section.6}%
 \contentsline {section}{\numberline {7}Trigonométrie}{11}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Fonctions}{11}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Originales}{11}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}Réciproques}{11}{subsubsection.7.1.2}%
-\contentsline {subsubsection}{\numberline {7.1.3}Hyperboliques}{11}{subsubsection.7.1.3}%
-\contentsline {subsubsection}{\numberline {7.1.4}Hyperboliques réciproques}{11}{subsubsection.7.1.4}%
-\contentsline {subsubsection}{\numberline {7.1.5}Complémentaires (secondaires)}{11}{subsubsection.7.1.5}%
-\contentsline {subsubsection}{\numberline {7.1.6}Complémentaires hyperboliques}{12}{subsubsection.7.1.6}%
-\contentsline {subsection}{\numberline {7.2}Propriétés}{12}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.1}Propriétés}{11}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Fonctions}{12}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Originales}{12}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Réciproques}{12}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Hyperboliques}{12}{subsubsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.4}Hyperboliques réciproques}{12}{subsubsection.7.2.4}%
+\contentsline {subsubsection}{\numberline {7.2.5}Complémentaires (secondaires)}{12}{subsubsection.7.2.5}%
+\contentsline {subsubsection}{\numberline {7.2.6}Complémentaires hyperboliques}{13}{subsubsection.7.2.6}%
 \contentsline {subsection}{\numberline {7.3}Fondamentales}{13}{subsection.7.3}%
 \contentsline {subsubsection}{\numberline {7.3.1}Identités trigonométriques fondamentales}{13}{subsubsection.7.3.1}%
 \contentsline {subsubsection}{\numberline {7.3.2}Formules de somme et différence}{13}{subsubsection.7.3.2}%
@@ -37,7 +37,7 @@
 \contentsline {subsection}{\numberline {12.1}Logarithmes et exponentielles}{25}{subsection.12.1}%
 \contentsline {subsection}{\numberline {12.2}Puissances et racines}{25}{subsection.12.2}%
 \contentsline {subsection}{\numberline {12.3}Comparaisons importantes}{25}{subsection.12.3}%
-\contentsline {subsection}{\numberline {12.4}Limites du type : \textbf {Faire la règle des signes}}{25}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.4}Limites du type}{25}{subsection.12.4}%
 \contentsline {subsection}{\numberline {12.5}Forme indéterminée (FI)}{25}{subsection.12.5}%
 \contentsline {subsection}{\numberline {12.6}Croissances comparées}{25}{subsection.12.6}%
 \contentsline {subsection}{\numberline {12.7}Opérations sur les limites}{26}{subsection.12.7}%
