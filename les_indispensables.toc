@@ -1,48 +1,58 @@
 \babel@toc {french}{}\relax 
 \contentsline {section}{\numberline {1}Vocabulaires}{4}{section.1}%
-\contentsline {section}{\numberline {2}Les fractions}{6}{section.2}%
-\contentsline {section}{\numberline {3}Les puissances}{7}{section.3}%
-\contentsline {section}{\numberline {4}Les identités remarquables}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Puissance 2}{8}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Puissance 3}{8}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Les racines}{9}{section.5}%
-\contentsline {section}{\numberline {6}Exponentielles et logarithme}{10}{section.6}%
-\contentsline {section}{\numberline {7}Trigonométrie}{11}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Propriétés}{11}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Fonctions}{12}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Originales}{12}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Réciproques}{12}{subsubsection.7.2.2}%
-\contentsline {subsubsection}{\numberline {7.2.3}Hyperboliques}{12}{subsubsection.7.2.3}%
-\contentsline {subsubsection}{\numberline {7.2.4}Hyperboliques réciproques}{12}{subsubsection.7.2.4}%
-\contentsline {subsubsection}{\numberline {7.2.5}Complémentaires (secondaires)}{12}{subsubsection.7.2.5}%
-\contentsline {subsubsection}{\numberline {7.2.6}Complémentaires hyperboliques}{13}{subsubsection.7.2.6}%
-\contentsline {subsection}{\numberline {7.3}Fondamentales}{13}{subsection.7.3}%
-\contentsline {subsubsection}{\numberline {7.3.1}Identités trigonométriques fondamentales}{13}{subsubsection.7.3.1}%
-\contentsline {subsubsection}{\numberline {7.3.2}Formules de somme et différence}{13}{subsubsection.7.3.2}%
-\contentsline {subsubsection}{\numberline {7.3.3}Angles associés}{14}{subsubsection.7.3.3}%
-\contentsline {subsubsection}{\numberline {7.3.4}Arguments doubles}{14}{subsubsection.7.3.4}%
-\contentsline {subsubsection}{\numberline {7.3.5}Arguments triples}{14}{subsubsection.7.3.5}%
-\contentsline {subsubsection}{\numberline {7.3.6}Formules de Carnot}{15}{subsubsection.7.3.6}%
-\contentsline {subsubsection}{\numberline {7.3.7}Formules de Simpson}{15}{subsubsection.7.3.7}%
-\contentsline {subsubsection}{\numberline {7.3.8}Développements tangentiels}{15}{subsubsection.7.3.8}%
-\contentsline {section}{\numberline {8}Les dérivés}{16}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Rappel du principe des dérivés}{16}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Dérivés des fonctions usuelles}{18}{subsection.8.2}%
-\contentsline {section}{\numberline {9}Les primitives usuelles}{20}{section.9}%
-\contentsline {section}{\numberline {10}Intégrales}{22}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Propriétés de l'intégrale}{22}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Intégration par parties}{22}{subsection.10.2}%
-\contentsline {section}{\numberline {11}Le changement de variable}{24}{section.11}%
-\contentsline {section}{\numberline {12}Limites usuelles}{25}{section.12}%
-\contentsline {subsection}{\numberline {12.1}Logarithmes et exponentielles}{25}{subsection.12.1}%
-\contentsline {subsection}{\numberline {12.2}Puissances et racines}{25}{subsection.12.2}%
-\contentsline {subsection}{\numberline {12.3}Comparaisons importantes}{25}{subsection.12.3}%
-\contentsline {subsection}{\numberline {12.4}Limites du type}{25}{subsection.12.4}%
-\contentsline {subsection}{\numberline {12.5}Forme indéterminée (FI)}{25}{subsection.12.5}%
-\contentsline {subsection}{\numberline {12.6}Croissances comparées}{25}{subsection.12.6}%
-\contentsline {subsection}{\numberline {12.7}Opérations sur les limites}{26}{subsection.12.7}%
-\contentsline {subsubsection}{\numberline {12.7.1}Somme}{26}{subsubsection.12.7.1}%
-\contentsline {subsubsection}{\numberline {12.7.2}Produit}{26}{subsubsection.12.7.2}%
-\contentsline {subsubsection}{\numberline {12.7.3}Quotient}{26}{subsubsection.12.7.3}%
-\contentsline {section}{\numberline {13}Polynômes}{27}{section.13}%
-\contentsline {subsection}{\numberline {13.1}Polynômes du 1er et 2ème degré}{27}{subsection.13.1}%
+\contentsline {section}{\numberline {2}Nombres premiers}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Décomposition en facteurs premiers}{6}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Les fractions}{7}{section.3}%
+\contentsline {section}{\numberline {4}Les puissances}{8}{section.4}%
+\contentsline {section}{\numberline {5}Les identités remarquables}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Puissance 2}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Puissance 3}{9}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Les racines}{10}{section.6}%
+\contentsline {section}{\numberline {7}Exponentielles et logarithme}{11}{section.7}%
+\contentsline {section}{\numberline {8}Trigonométrie}{12}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Propriétés}{12}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Fonctions}{13}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Originales}{13}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Réciproques}{13}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Hyperboliques}{13}{subsubsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}Hyperboliques réciproques}{13}{subsubsection.8.2.4}%
+\contentsline {subsubsection}{\numberline {8.2.5}Complémentaires (secondaires)}{13}{subsubsection.8.2.5}%
+\contentsline {subsubsection}{\numberline {8.2.6}Complémentaires hyperboliques}{14}{subsubsection.8.2.6}%
+\contentsline {subsection}{\numberline {8.3}Fondamentales}{14}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Identités trigonométriques fondamentales}{14}{subsubsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.2}Formules de somme et différence}{14}{subsubsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.3}Angles associés}{15}{subsubsection.8.3.3}%
+\contentsline {subsubsection}{\numberline {8.3.4}Arguments doubles}{15}{subsubsection.8.3.4}%
+\contentsline {subsubsection}{\numberline {8.3.5}Arguments triples}{15}{subsubsection.8.3.5}%
+\contentsline {subsubsection}{\numberline {8.3.6}Formules de Carnot}{16}{subsubsection.8.3.6}%
+\contentsline {subsubsection}{\numberline {8.3.7}Formules de Simpson}{16}{subsubsection.8.3.7}%
+\contentsline {subsubsection}{\numberline {8.3.8}Développements tangentiels}{16}{subsubsection.8.3.8}%
+\contentsline {section}{\numberline {9}Les dérivés}{17}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Rappel du principe des dérivés}{17}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Dérivés des fonctions usuelles}{19}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Les primitives usuelles}{21}{section.10}%
+\contentsline {section}{\numberline {11}Intégrales}{23}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Propriétés de l'intégrale}{23}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Intégration par parties}{23}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Le changement de variable}{25}{section.12}%
+\contentsline {section}{\numberline {13}Limites}{26}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Opérations sur les limites}{26}{subsection.13.1}%
+\contentsline {subsubsection}{\numberline {13.1.1}Somme}{26}{subsubsection.13.1.1}%
+\contentsline {subsubsection}{\numberline {13.1.2}Produit}{26}{subsubsection.13.1.2}%
+\contentsline {subsubsection}{\numberline {13.1.3}Quotient}{26}{subsubsection.13.1.3}%
+\contentsline {subsection}{\numberline {13.2}Limites usuelles}{26}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Logarithmes et exponentielles}{26}{subsection.13.3}%
+\contentsline {subsection}{\numberline {13.4}Puissances et racines}{26}{subsection.13.4}%
+\contentsline {subsection}{\numberline {13.5}Comparaisons importantes}{27}{subsection.13.5}%
+\contentsline {subsection}{\numberline {13.6}Limites du type}{27}{subsection.13.6}%
+\contentsline {subsection}{\numberline {13.7}Forme indéterminée (FI)}{27}{subsection.13.7}%
+\contentsline {subsection}{\numberline {13.8}Croissances comparées}{27}{subsection.13.8}%
+\contentsline {subsection}{\numberline {13.9}Règle de l'Hôpital}{27}{subsection.13.9}%
+\contentsline {section}{\numberline {14}Polynômes}{28}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Polynômes du 1er et 2ème degré}{28}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Polynômes du 3ème degré}{28}{subsection.14.2}%
+\contentsline {section}{\numberline {15}Algèbre booléennes}{29}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Opérateur booléens et tables de vérité}{29}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Définitions et expressions négatives}{29}{subsection.15.2}%
+\contentsline {subsubsection}{\numberline {15.2.1}Définitions}{29}{subsubsection.15.2.1}%
+\contentsline {subsubsection}{\numberline {15.2.2}Négations}{30}{subsubsection.15.2.2}%

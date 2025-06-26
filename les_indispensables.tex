@@ -23,6 +23,9 @@
 \usepackage{amssymb}  % Pour les symboles supplémentaires
 \usepackage{multicol}
 
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+
 \usepackage{amsmath, amssymb}
 \usepackage{array, multirow}
 \usepackage{geometry}
@@ -135,6 +138,10 @@ Une fonction est \textbf{différentiable} si elle admet une dérivée, c’est-�
 	\item \( f(x) = |x| \) n'est pas différentiable en \( x = 0 \), car elle présente une pointe.
 \end{itemize}
 
+\newpage
+\section{Nombres premiers}
+
+\subsection{Décomposition en facteurs premiers}
 
 \newpage
 \section{Les fractions}
@@ -214,6 +221,7 @@ Une fonction est \textbf{différentiable} si elle admet une dérivée, c’est-�
 	\item \textbf{Propriété 3 :} \( \boxed{ln\left (\frac{1}{b}\right ) = -ln(b)} \)
 	\item \textbf{Propriété 4 :} \( \boxed{ln(e^{x}) = x} \)
 	\item \textbf{Propriété 5 :} \( \boxed{e^{ln(x)} = x} \)
+	\item \textbf{Propriété 6 :} \( \boxed{a^{b} = e^{b\ln(a)}} \)
 	\item \textbf{Limites :}
 	\begin{itemize}
 		\item \( \boxed{\lim\limits_{x \to +\infty} e^{x} = +\infty} \)
@@ -360,7 +368,7 @@ Une fonction est \textbf{différentiable} si elle admet une dérivée, c’est-�
 \newpage
 \section{Les dérivés}
 \subsection{Rappel du principe des dérivés}
-La dérivée d’une fonction $f(x)$ représente le taux de variation de cette fonction. Elle peut être dénotée $f’(x)$ ou encore $\frac{df}{dx}$. Le calcul et l’étude de la dérivée sont des notions importantes dans l’étude des fonctions.
+La dérivée d’une fonction $f(x)$ représente le taux de variation de cette fonction. Elle peut être notée $f’(x)$ ou encore $\frac{df}{dx}$. Le calcul et l’étude de la dérivée sont des notions importantes dans l’étude des fonctions.
 
 \begin{figure}[h] % h = ici, t = en haut, b = en bas, p = page séparée
 	\centering
@@ -446,9 +454,10 @@ Grâce à $f'(x)$ nous pouvons voir ici que les points où elle s'annule sont le
 	$f(x) = uv$ & $f'(x) = u'v + uv'$ & $$ \\
 	$f(x) = \frac{u}{v}$ & $f'(x) = \frac{u'v - uv'}{v^2}$ & $$ \\
 	$f(x) = au$ & $f'(x) = au'$ & $$ \\
+	$f(x) = u(ax+b)$ & $f'(x) = au'(ax+b)$ & $$ \\
 	
 	\hline
-	$f(x) = (f \circ g)(x)$ & $f'(x) = g'(x)(f'(x) \circ g(x))$ & $$ \\
+	$f(x) = (f \circ u)(x)$ & $f'(x) = f'(u(x)) \times u'(x)$ & $$ \\
 \end{longtable}
 
 \newpage
@@ -645,8 +654,45 @@ Le changement de variable doit être :
 \end{itemize}
 
 \newpage
-\section{Limites usuelles}
+\section{Limites}
+
+\subsection{Opérations sur les limites}
+\subsubsection{Somme}
+\begin{tabular}{|l|c|c|c|c|c|c|}
+	\hline
+	$\displaystyle \lim_{x \to \alpha} f(x) = $ & $L$ & $L$ & $L$ & $+\infty$ & $-\infty$ & $+\infty$ \\
+	\hline
+	$\displaystyle \lim_{x \to \alpha} g(x) = $ & $L'$ & $+\infty$ & $-\infty$ & $+\infty$ & $-\infty$ & $-\infty$ \\
+	\hline
+	$\displaystyle \lim_{x \to \alpha} f(x)+g(x) = $ & $L+L'$ & $+\infty$ & $-\infty$ & $+\infty$ & $-\infty$ & $F.I.$ \\
+	\hline
+\end{tabular}
+
+\subsubsection{Produit}
+\begin{tabular}{|l|c|c|c|c|}
+	\hline
+	$\displaystyle \lim_{x \to \alpha} f(x) = $ & $L$ & $L$ & $\infty$ & $0$ \\
+	\hline
+	$\displaystyle \lim_{x \to \alpha} g(x) = $ & $L'$ & $\infty$ & $\infty$ & $\infty$ \\
+	\hline
+	$\displaystyle \lim_{x \to \alpha} f(x) \times g(x) = $ & $L \times L'$ & $\infty$ & $\infty$ & $F.I.$ \\
+	\hline
+\end{tabular}
+
+$\infty$ désigne $+\infty$ ou $-\infty$.
+
+\subsubsection{Quotient}
+\begin{tabular}{|l|c|c|c|c|c|c|}
+	\hline
+	$\displaystyle \lim_{x \to \alpha} f(x) = $ & $L$ & $L \ne 0$ & $L$ & $\infty$ & $\infty$ & $0$ \\
+	\hline
+	$\displaystyle \lim_{x \to \alpha} g(x) = $ & $L' \ne 0$ & $0$ & $\infty$ & $L$ & $\infty$ & $0$ \\
+	\hline
+	$\displaystyle \lim_{x \to \alpha} \frac{f(x)}{g(x)} = $ & $\frac{L}{L'}$ & $\infty$ & $0$ & $\infty$ & $F.I.$ & $F.I.$ \\
+	\hline
+\end{tabular}
 	
+\subsection{Limites usuelles}
 \begin{itemize}
 	\item \( \displaystyle \lim_{x \to +\infty} x^2 = +\infty \quad \lim_{x \to -\infty} x^2 = +\infty \)
 	\item \( \displaystyle \lim_{x \to +\infty} x^3 = +\infty \quad \lim_{x \to -\infty} x^3 = -\infty \)
@@ -715,42 +761,14 @@ Faire la règle des signes
 	\item \( \displaystyle \lim_{x \to +\infty} \frac{e^x}{x^n} = +\infty \)
 \end{itemize}
 
-\subsection{Opérations sur les limites}
-\subsubsection{Somme}
-\begin{tabular}{|l|c|c|c|c|c|c|}
-	\hline
-	$\displaystyle \lim_{x \to \alpha} f(x) = $ & $L$ & $L$ & $L$ & $+\infty$ & $-\infty$ & $+\infty$ \\
-	\hline
-	$\displaystyle \lim_{x \to \alpha} g(x) = $ & $L'$ & $+\infty$ & $-\infty$ & $+\infty$ & $-\infty$ & $-\infty$ \\
-	\hline
-	$\displaystyle \lim_{x \to \alpha} f(x)+g(x) = $ & $L+L'$ & $+\infty$ & $-\infty$ & $+\infty$ & $-\infty$ & $F.I.$ \\
-	\hline
-\end{tabular}
-
-\subsubsection{Produit}
-\begin{tabular}{|l|c|c|c|c|}
-	\hline
-	$\displaystyle \lim_{x \to \alpha} f(x) = $ & $L$ & $L$ & $\infty$ & $0$ \\
-	\hline
-	$\displaystyle \lim_{x \to \alpha} g(x) = $ & $L'$ & $\infty$ & $\infty$ & $\infty$ \\
-	\hline
-	$\displaystyle \lim_{x \to \alpha} f(x) \times g(x) = $ & $L \times L'$ & $\infty$ & $\infty$ & $F.I.$ \\
-	\hline
-\end{tabular}
-
-$\infty$ désigne $+\infty$ ou $-\infty$.
-
-\subsubsection{Quotient}
-\begin{tabular}{|l|c|c|c|c|c|c|}
-	\hline
-	$\displaystyle \lim_{x \to \alpha} f(x) = $ & $L$ & $L \ne 0$ & $L$ & $\infty$ & $\infty$ & $0$ \\
-	\hline
-	$\displaystyle \lim_{x \to \alpha} g(x) = $ & $L' \ne 0$ & $0$ & $\infty$ & $L$ & $\infty$ & $0$ \\
-	\hline
-	$\displaystyle \lim_{x \to \alpha} \frac{f(x)}{g(x)} = $ & $\frac{L}{L'}$ & $\infty$ & $0$ & $\infty$ & $F.I.$ & $F.I.$ \\
-	\hline
-\end{tabular}
-
+\subsection{Règle de l'Hôpital}
+\( \displaystyle \lim_{x \to a} \frac{f(x)}{g(x)} = \frac{f'(a)}{g'(a)} \)
+\newline
+$f(a) = 0 \quad g(a) = 0$
+\newline
+$f$, $g$ dérivables
+\newline
+$g'(a) \neq 0$
 
 \newpage
 \section{Polynômes}
@@ -760,6 +778,75 @@ $\infty$ désigne $+\infty$ ou $-\infty$.
 	\includegraphics[width=1\textwidth]{./images/polynomes.png} % Ajustez la largeur
 	\label{fig:polynome} % Pour référencer l’image
 \end{figure}
+\subsection{Polynômes du 3ème degré}
+\begin{itemize}
+	\item \(\boxed{a^{3}-b^{3} = (a-b)(a^{2}+ab+b^{2})} \)
+\end{itemize}
+
+\newpage
+\section{Algèbre booléennes}
+\subsection{Opérateur booléens et tables de vérité}
+\begin{itemize}
+	\item L’opérateur de négation ``\(\lnot\)'', correspondant au ``non'' du français.
+	\item L’opérateur de conjonction ``\(\land\)'', correspondant au ``et'' du français.
+	\item L’opérateur de disjonction ``\(\lor\)'', correspondant au ``ou'' du français.
+	\item L’opérateur d’implication ``\(\rightarrow\)'', correspondant au ``si ... alors ...''.
+	\item L’opérateur d'équivalence ``\(\leftrightarrow\)'', correspondant au ``... si et seulement si ...''.
+	\item L’opérateur de disjonction exclusive ``\(\oplus\)'', correspondant à ``ou exclusif'' (soit l’un, soit l’autre, mais pas les deux).
+	\item L’opérateur de non-implication ``\(\nrightarrow\)'', qui signifie que l’implication ne tient pas.
+	\item L’opérateur de non-équivalence ``\(\not\leftrightarrow\)'', pour ``n'est pas équivalent à''.
+\end{itemize}
+
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		$p$ & $q$ & $\lnot p$ & $p \land q$ & $p \lor q$ & $p \Rightarrow q$ & $p \Leftarrow q$ & $p \Leftrightarrow q$ \\
+		\hline
+		v & v & f & v & v & v & v & v \\
+		v & f & f & f & v & \textcolor{red}{f} & v & f \\
+		f & v & v & f & v & v & \textcolor{red}{f} & f \\
+		f & f & v & f & f & v & v & v \\
+		\hline
+	\end{tabular}
+\end{center}
+
+\begin{table}[h!]
+	\centering
+	\caption{Priorité des opérateurs booléens.}
+	\begin{tabular}{@{}c@{\quad}c@{\qquad}l@{}}
+		\textbf{Symbole(s)} & \textbf{Nom(s)} &  \\
+		$\neg$              & Négation        & \textit{(priorité élevée) }\\
+		$\land \quad \lor$  & Conjonction, Disjonction &                   \\
+		$\Rightarrow$       & Implication     &                              \\
+		$\Leftrightarrow$   & Si et seulement si & \textit{(priorité faible)} \\
+	\end{tabular}
+\end{table}
+
+\subsection{Définitions et expressions négatives}
+\subsubsection{Définitions}
+\( p \Rightarrow q \overset{\text{def}}{=} \lnot p \lor q \)
+\newline
+\newline
+\( p \Leftarrow q \overset{\text{def}}{=} q \Rightarrow p \)
+\newline
+\newline
+\(p \Leftrightarrow q \overset{\text{def}}{=} (p \Rightarrow q) \land (q \Rightarrow p) \)
+
+\subsubsection{Négations}
+\( \lnot (p \Rightarrow q) \overset{\text{def}}{=} p \land \lnot q \)
+\newline
+\newline
+\( \lnot (p \Leftarrow q) \overset{\text{def}}{=} \lnot p \land q \)
+\newline
+\newline
+\( \lnot (p \Leftrightarrow q) \overset{\text{def}}{=} (p \land \lnot q) \lor (\lnot p \land q) \)
+\newline
+\newline
+\( \lnot (p \land q) \overset{\text{def}}{=} \lnot p \lor \lnot q \)
+\newline
+\newline
+\( \lnot (p \lor q) \overset{\text{def}}{=} \lnot p \land \lnot q \)
+
 
 
 \end{document}
