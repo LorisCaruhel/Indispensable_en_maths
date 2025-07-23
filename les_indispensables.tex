@@ -790,25 +790,25 @@ $g'(a) \neq 0$
 	\item L’opérateur de négation ``\(\lnot\)'', correspondant au ``non'' du français.
 	\item L’opérateur de conjonction ``\(\land\)'', correspondant au ``et'' du français.
 	\item L’opérateur de disjonction ``\(\lor\)'', correspondant au ``ou'' du français.
-	\item L’opérateur d’implication ``\(\rightarrow\)'', correspondant au ``si ... alors ...''.
-	\item L’opérateur d'équivalence ``\(\leftrightarrow\)'', correspondant au ``... si et seulement si ...''.
+	\item L’opérateur d’implication ``\(\Rightarrow\)'', correspondant au ``si ... alors ...''.
+	\item L’opérateur d'équivalence ``\(\Leftrightarrow\)'', correspondant au ``... si et seulement si ...''.
 	\item L’opérateur de disjonction exclusive ``\(\oplus\)'', correspondant à ``ou exclusif'' (soit l’un, soit l’autre, mais pas les deux).
-	\item L’opérateur de non-implication ``\(\nrightarrow\)'', qui signifie que l’implication ne tient pas.
-	\item L’opérateur de non-équivalence ``\(\not\leftrightarrow\)'', pour ``n'est pas équivalent à''.
+	\item L’opérateur de non-implication ``\(\nRightarrow\)'', qui signifie que l’implication ne tient pas.
+	\item L’opérateur de non-équivalence ``\(\not\Leftrightarrow\)'', pour ``n'est pas équivalent à''.
 \end{itemize}
 
 \begin{center}
-	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 		\hline
-		$p$ & $q$ & $\lnot p$ & $p \land q$ & $p \lor q$ & $p \Rightarrow q$ & $p \Leftarrow q$ & $p \Leftrightarrow q$ \\
+		$p$ & $q$ & $\lnot p$ & $p \land q$ & $p \lor q$ & $p \Rightarrow q$ & $p \Leftarrow q$ & $p \Leftrightarrow q$ & $p \oplus q$ \\
 		\hline
-		v & v & f & v & v & v & v & v \\
-		v & f & f & f & v & \textcolor{red}{f} & v & f \\
-		f & v & v & f & v & v & \textcolor{red}{f} & f \\
-		f & f & v & f & f & v & v & v \\
+		v & v & f & v & v & v & v & v & f \\
+		v & f & f & f & v & \textcolor{red}{f} & v & f & v \\
+		f & v & v & f & v & v & \textcolor{red}{f} & f & v \\
+		f & f & v & f & f & v & v & v & f \\
 		\hline
 	\end{tabular}
-\end{center}
+\end{center} 
 
 \begin{table}[h!]
 	\centering
@@ -824,29 +824,218 @@ $g'(a) \neq 0$
 
 \subsection{Définitions et expressions négatives}
 \subsubsection{Définitions}
-\( p \Rightarrow q \overset{\text{def}}{=} \lnot p \lor q \)
+\( p \Rightarrow q \iff \lnot p \lor q \)
 \newline
 \newline
-\( p \Leftarrow q \overset{\text{def}}{=} q \Rightarrow p \)
+\( p \Leftarrow q \iff q \Rightarrow p \)
 \newline
 \newline
-\(p \Leftrightarrow q \overset{\text{def}}{=} (p \Rightarrow q) \land (q \Rightarrow p) \)
+\(p \Leftrightarrow q \iff (p \Rightarrow q) \land (q \Rightarrow p) \)
+\newline
+\newline
+\( (p \Leftrightarrow q) \land (q \Leftrightarrow r) \Rightarrow (p \Leftrightarrow r) \) \textit{(Transitivité)}
+\newline
+\newline
+\( p \Rightarrow q \iff \neg q \Rightarrow \neg p \) \textit{(Contraposition)}
+\newline
+\newline
+\( p \oplus q \iff ( p \land \lnot q) \lor (\lnot p \land q) \)
+\newline
+\newline
+\( p \oplus q \iff \lnot ( \lnot p \lor q) \lor \lnot(p \lor \lnot q) \)
+\newline
+\newline
+\( (p \iff q) \iff ((p \land q) \lor (\lnot p \land \lnot q)) \)
+\newline
+\newline
+\( (\lnot p \iff q) \iff \lnot(p \iff q) \)
+\newline
+\newline
+\( (\lnot p \iff \lnot q) \iff (p \iff q) \)
+\newline
+\newline
+\( (\lnot p \iff q) \iff (p \iff \lnot q) \)
 
 \subsubsection{Négations}
-\( \lnot (p \Rightarrow q) \overset{\text{def}}{=} p \land \lnot q \)
+\( \lnot (p \Rightarrow q) \iff p \land \lnot q \)
 \newline
 \newline
-\( \lnot (p \Leftarrow q) \overset{\text{def}}{=} \lnot p \land q \)
+\( \lnot (p \Leftarrow q) \iff \lnot p \land q \)
 \newline
 \newline
-\( \lnot (p \Leftrightarrow q) \overset{\text{def}}{=} (p \land \lnot q) \lor (\lnot p \land q) \)
+\( \lnot (p \Leftrightarrow q) \iff (p \land \lnot q) \lor (\lnot p \land q) \)
 \newline
 \newline
-\( \lnot (p \land q) \overset{\text{def}}{=} \lnot p \lor \lnot q \)
+\( \lnot (p \land q) \iff \lnot p \lor \lnot q \) (De Morgan I)
 \newline
 \newline
-\( \lnot (p \lor q) \overset{\text{def}}{=} \lnot p \land \lnot q \)
+\( \lnot (p \lor q) \iff \lnot p \land \lnot q \) (De Morgan II)
+
+\vspace{1em}
+\subsection{Propriétés de la négation}
+
+Soit \( p \) une expression booléenne, alors :
+
+\begin{itemize}[label=, leftmargin=1cm]
+	\item[a:] \( \neg(\neg p) \iff p \hfill \) \textit{(Double négation)}
+	\item[b:] \( p \lor \neg p \iff \text{vrai} \hfill \) \textit{(Tiers exclu)}
+	\item[c:] \( p \land \neg p \iff \text{faux} \hfill \) \textit{(Contradiction)}
+\end{itemize}
+
+\vspace{1em}
+
+\subsection{Propriétés de la conjonction}
+
+Soit \( p, q \) et \( r \) des expressions booléennes, alors :
+
+\begin{itemize}[label=, leftmargin=1cm]
+	\item[a:] \( p \land \text{vrai} \iff p \hfill \) \textit{(Élément neutre)}
+	\item[b:] \( p \land \text{faux} \iff \text{faux} \hfill \) \textit{(Élément absorbant)}
+	\item[c:] \( p \land p \iff p \hfill \) \textit{(Idempotence)}
+	\item[d:] \( p \land q \iff q \land p \hfill \) \textit{(Commutativité)}
+	\item[e:] \( (p \land q) \land r \iff p \land (q \land r) \hfill \) \textit{(Associativité)}
+	\item[f:] \( (p \lor q) \land r \iff (p \land r) \lor (q \land r) \hfill \) \textit{(Distributivité)}
+	\item[g:] \( (p \land q) \Rightarrow p \hfill \) \textit{(Affaiblissement de la conjonction)}
+\end{itemize}
+
+\vspace{1em}
+\subsection{Propriétés de la disjonction}
+
+Soit \( p, q \) et \( r \) des expressions booléennes, alors :
+
+\begin{itemize}[label=, leftmargin=1cm]
+	\item[a:] \( p \lor \text{faux} \iff p \hfill \) \textit{(Élément neutre)}
+	\item[b:] \( p \lor \text{vrai} \iff \text{vrai} \hfill \) \textit{(Élément absorbant)}
+	\item[c:] \( p \lor p \iff p \hfill \) \textit{(Idempotence)}
+	\item[d:] \( p \lor q \iff q \lor p \hfill \) \textit{(Commutativité)}
+	\item[e:] \( (p \lor q) \lor r \iff p \lor (q \lor r) \hfill \) \textit{(Associativité)}
+	\item[f:] \( (p \land q) \lor r \iff (p \lor r) \land (q \lor r) \hfill \) \textit{(Distributivité)}
+	\item[g:] \( p \Rightarrow (p \lor q) \hfill \) \textit{(Renforcement de la disjonction)}
+\end{itemize}
+
+\subsection{Le problème de satisfiabilité d’une équation booléenne}
+Une \textbf{instance du problème SAT} consiste en une équation booléenne contenant des variables libres. Une telle instance est dite \textbf{satisfiable} lorsqu’il existe une assignation de variables telle que l’équation est évaluée à vrai.
+\newline \newline
+L’équation définissant une instance du problème SAT est généralement exprimée sous une forme standard que l’on désigne par \textbf{forme normale conjonctive}. On parle alors d’un problème \textbf{SAT-CNF} (l’abréviation CNF vient de l’anglais “conjunctive normal form”). Voici un exemple d’instance du problème SAT-CNF :
+
+\[
+\phi_c :\quad (x_1 \lor x_2) \land (\neg x_1 \lor x_3) \land (\neg x_2 \lor \neg x_3) \land (x_1 \lor x_2 \lor x_3).
+\]
 
 
+En logique mathématique, le terme littéral désigne une variable booléenne ou la négation d’une variable boolénne (dans l’expression $\phi_c$, “$x1$” et “$\lnot x1$” sont des littéraux) et le terme clause désigne une disjonction de littéraux (l’expression $\phi_c$ comporte quatre clauses, dont la première est “x1 $\lor$ x2”). Considérant ces définitions, une forme normale conjonctive est une conjonction de clauses. À moins de spécifications contraires, une clause peut contenir un nombre quelconque de littéraux.
+\newline \newline
+Une instance d’un problème SAT-CNF comprend exclusivement les opérateurs de base :
+la disjonction “$\lor$”, la conjonction “$\land$” et la négation “$\lnot$”.
+
+\newpage
+\section{Ensembles}
+\subsection{Quelques définitions}
+\(
+S = T \overset{def}{=} \big( 
+\forall e \;\mid\; e \in S \iff e \in T 
+\big)
+\)
+\newline\newline
+\(
+S \neq T \overset{def}{=} \lnot \big( S = T\big)
+\)
+\newline\newline
+\(
+(\forall x \in T \mid P(x)) \overset{\text{def}}{=} (\forall x \mid x \in T \Rightarrow P(x)) \quad \text{(Quantificateur universel)}
+\)
+\newline\newline
+\(
+(\exists x \in T \mid P(x)) \overset{\text{def}}{=} (\exists x \mid x \in T \land P(x)) \quad \text{(Quantificateur existentiel)}
+\)
+\newline\newline
+\(
+\forall P = \lnot \exists \lnot P
+\)
+\newline\newline
+\(
+\lnot\left(\forall x \in \mathit{T} \;|\; \mathit{P}(x) \right) \iff (\exists x \in \mathit{T} \;|\; \lnot \mathit{P}(x)) \quad \text{(Première loi de De Morgan)}
+\)
+\newline\newline
+\(
+\lnot\left(\exists x \in \mathit{T} \;|\; \mathit{P}(x) \right) \iff (\forall x \in \mathit{T} \;|\; \lnot \mathit{P}(x)) \quad \text{(Deuxième loi de De Morgan)}
+\)
+
+\subsection{Les quantificateurs}
+\subsection{Les quantificateurs et l'appartenance}
+
+En logique et en théorie des ensembles, plusieurs symboles sont utilisés pour exprimer des relations entre des éléments et des ensembles.
+
+\bigskip
+
+\textbf{Appartenance à un ensemble} \\
+L’opérateur d’appartenance “$\in$” permet d’indiquer si un élément appartient à un ensemble. Par exemple, l’expression :
+\[
+e \in S
+\]
+se lit “$e$ appartient à l’ensemble $S$”. Il s’agit d’une \textit{expression booléenne}, c’est-à-dire qu’elle est soit vraie, soit fausse selon les cas.
+
+Pour dire qu’un élément n’appartient pas à un ensemble, on utilise la notation :
+\[
+e \notin S
+\]
+
+\bigskip
+
+\textbf{L’ensemble vide} \\
+Le symbole “$\emptyset$” désigne l’\textbf{ensemble vide}, c’est-à-dire l’ensemble qui ne contient aucun élément :
+\[
+\emptyset = \{\,\}
+\]
+
+\bigskip
+
+\textbf{Les quantificateurs logiques} \\
+Les quantificateurs sont utilisés pour faire des affirmations sur tous les éléments d’un ensemble, ou sur l’existence d’un ou plusieurs éléments. Il en existe principalement deux :
+
+\begin{itemize}
+	\item Le quantificateur universel “$\forall$” signifie “pour tout” ou “quel que soit”. \\
+	Par exemple : \quad $\forall x \in \mathbb{N},\ x \geq 0$ \quad signifie “tout entier naturel est supérieur ou égal à zéro”.
+	
+	\item Le quantificateur existentiel “$\exists$” signifie “il existe”. \\
+	Par exemple : \quad $\exists x \in \mathbb{Z},\ x < 0$ \quad signifie “il existe un entier relatif strictement négatif”.
+\end{itemize}
+
+\subsection{Définition par extension versus définition par compréhension}
+
+Jusqu'à maintenant, nous avons présenté les ensembles par leur \textbf{définition par extension}, c'est-à-dire en énumérant les éléments de l'ensemble (par exemple, ``$A := \{1, 2, 3, 4, 5\}$''). \\
+Nous introduisons maintenant la \textbf{définition par compréhension} qui consiste plutôt à présenter les propriétés que respectent les éléments d’un ensemble.
+
+\bigskip
+
+Pour définir un ensemble par compréhension, nous utilisons la notation 
+\[
+S := \{ f(x) \mid R(x) \}
+\]
+qu’on lit ``$S$ est l’ensemble des $f(x)$ tels que $R(x)$'', où :
+\begin{itemize}
+	\item $f(x)$ est une fonction qui décrit les éléments de l’ensemble ;
+	\item $R(x)$ est une expression booléenne qui permet de restreindre le contenu de l’ensemble.
+\end{itemize}
+
+Autrement dit, on a $f(x) \in S$ si et seulement si $R(x)$ est \textbf{vrai}.
+
+\bigskip
+
+Voici quelques exemples d’ensembles définis par compréhension :
+
+\begin{itemize}
+	\item $A := \{ x \mid x \in \mathbb{N} \land 1 \leq x \leq 5 \}$, l’ensemble des nombres entiers entre 1 et 5 inclusivement ;
+	\item $B := \{ x \mid x \text{ est une voyelle} \}$, l’ensemble des voyelles de l’alphabet ;
+	\item $\mathbb{N}^* := \{ x \mid x \in \mathbb{N} \land x \neq 0 \}$, l’ensemble des \textbf{nombres naturels excluant le zéro} ;
+	\item $F := \{ 2x \mid x \in \mathbb{N}^* \}$, l’ensemble des nombres pairs positifs ;
+	\item $G := \{ 2^x \mid x \in \mathbb{N} \land x \leq 8 \}$, l’ensemble des puissances de 2 de 1 à 256 ;
+	\item $\mathbb{Z} := \{ x \mid x \in \mathbb{N} \lor -x \in \mathbb{N} \}$, l’ensemble des nombres relatifs ;
+	\item $\mathbb{Q} := \left\{ \dfrac{x}{y} \mid x \in \mathbb{Z},\ y \in \mathbb{N}^* \right\}$, l’ensemble des \textbf{nombres rationnels}.
+\end{itemize}
+
+\subsection{La cardinalité d'un ensemble}
+La cardinalité d’un ensemble correspond au nombre d’éléments qu’il contient. On
+note |S| la cardinalité de l’ensemble S. 
 
 \end{document}
